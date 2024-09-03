@@ -1,0 +1,110 @@
+div{
+    border: 1px solid;
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+}
+.verde{
+    background-color: rgb(34, 252, 5);
+}
+.dois{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+    grid-auto-rows: minmax(200px, auto);
+}
+.amarelo{
+    background-color: rgb(107, 114, 40);
+}
+.roxo{
+    background-color: rgb(70, 30, 66);
+}
+.rosa{
+    background-color: rgb(230, 0, 207);
+}
+.tres{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: minmax(200px, auto);
+}
+.azul{
+    background-color: rgb(0, 15, 97);
+}
+.vermelho{
+    background-color: rgb(207, 0, 0);
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+}
+.doisdois{
+    display: grid;
+    grid-template-columns: repeat(1, 3fr 1fr);
+    row-gap: 10px;
+}
+.container3{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    border: 1px transparent;
+}
+.tresum{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    border: 1px transparent;
+}
+.tresumum{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(207, 0, 0);
+}
+.tresquatro{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 2px;
+    grid-auto-rows: minmax(98px, auto);
+    background-color: red;
+    border: 1px transparent;
+}
+.tresquatroum{
+    height: 93px;
+    background-color: rgb(70, 30, 66);
+}
+.trescinco{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    border: 1px transparent;
+}
+.trescincoum{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgb(207, 0, 0);
+}
+.trescincodois{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(207, 0, 0);
+}
+.trescincotres{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(3, 0, 207);
+}
